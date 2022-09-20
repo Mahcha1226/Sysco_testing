@@ -1,6 +1,7 @@
 source ./lms_Log.sh
 
 source ./lms_Log.sh1
+souce ./lms_log.sh2
 
 
 logLMS "Commencing LMS Download Step "
