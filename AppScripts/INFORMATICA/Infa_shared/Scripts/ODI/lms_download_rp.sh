@@ -1,5 +1,7 @@
 source ./lms_Log.sh
 
+source ./lms_Log.sh1
+
 
 logLMS "Commencing LMS Download Step "
 TOTALOBJECTS=$(aws s3 ls  s3://sysco-dev-odi-us-east-1/LMSOutboundRP/ --recursive --profile=odi-go-dev | wc -l)
